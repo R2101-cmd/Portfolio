@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rishabha's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Cursor Follower -->
+  <div class="cursor-follower"></div>
+  <!-- Theme Toggle -->
+  <button id="theme-toggle" aria-pressed="false" title="Toggle theme">
+    <i class="bi bi-sun" id="theme-icon"></i>
+  </button>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      
+      <input type="checkbox" id="nav-toggle">
+      <label for="nav-toggle" class="navbar-toggle" aria-label="Toggle navigation"><i class="bi bi-list"></i></label>
+      <ul class="navbar-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <header class="hero-section" id="home">
+    <div class="container hero-content">
+      <div class="hero-img">
+        <img src="img/header-img.jpg" alt="Rishabha's portrait">
+      </div>
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="accent">Rishabha</span></h1>
+        <h2>
+          <span class="subtitle">AI &amp; Data Science Student</span>
+        </h2>
+        <p>
+          Enthusiastic, creative, and analytical student with a passion for AI, data, and user-centric design.<br>
+        </p>
+        <div class="hero-buttons">
+          <a href="mailto:rishabhajagadesh01@gmail.com" class="btn btn-accent"><i class="bi bi-envelope"></i> Email</a>
+          <a href="Rishabha Resume.pdf" target="_blank" class="btn btn-accent-outline" style="color:black;">
+          <i class="bi bi-download"></i> Resume</a>
+
+          <a href="#contact" class="btn btn-primary"><i class="bi bi-chat-dots"></i> Let's Connect</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/rishabha-jr-890aa4290/" title="LinkedIn" class="btn-social"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/R2101-cmd" title="GitHub" class="btn-social"><i class="bi bi-github"></i></a>
+          <a href="https://www.reddit.com/user/CompetitionMammoth53/" title="leetcode" class="btn-social"><i class="bi bi-reddit"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container section-flex">
+      <div class="about-info">
+        <h2>About Me</h2>
+        <p>
+          I'm Rishabha, a 3rd-year undergraduate student specializing in Artificial Intelligence and Data Science. Vibrant, eager to collaborate, and constantly upskilling, I love solving real-world problems with tech, code, and a hint of design thinking.  
+        </p>
+        <ul class="about-list">
+          <li><i class="bi bi-geo-alt"></i> <span>Erode, Tamil Nadu</span></li>
+          <li><i class="bi bi-envelope"></i> <span>rishabhajagadesh01@gmail.com</span></li>
+          <li><i class="bi bi-bar-chart"></i> <span>Status: <strong>Open to Internships</strong></span></li>
+        </ul>
+      </div>
+      <div class="about-photo secondary-photo">
+        <img src="img/about.jpg" alt="Rishabha working/studying">
+      </div>
+    </div>
+  </section>
+  <!-- Education -->
+  <section id="education" class="section glass-section">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="edu-cards">
+        <div class="edu-card">
+          <h3>B.Tech, AI &amp; Data Science</h3>
+          <span class="school">Velalar College of Engineering</span>
+          <span class="date">2023 – 2027</span>
+          <p><br>Current year: 3rd<br>Relevant: DS, Algorithms, ML, Python</p>
+        </div>
+        <div class="edu-card">
+          <h3>Higher Secondary (HSC)</h3>
+          <span class="school">Jaycees Matric Hr. Sec. School</span>
+          <span class="date">2022 – 2023</span>
+          <p><br>Majors:Science, Math, Physics , Chemistry</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="exp-cards">
+        <div class="exp-card">
+          <h3>AI and Tech Decentralized Intern <span>  @BlockseBlock</span></h3>
+          <span class="date">AUg 2025 – Sep 2025</span>
+          <ul>
+            <li>Worked with LLM's</li>
+            <li>Built basic app uising LLM</li>
+            <li>Understand about real world impact of AI-driven technologies.</li>
+          </ul>
+        </div>
+        <div class="exp-card">
+          <h3> Database Intern <span> @RP Software Solutions</span></h3>
+          <span class="date">2024 – 2024</span>
+          <ul>
+            <li>Learned to work with SQL queries</li>
+            <li>Created a webpage for electronics online shopping and visualized the data using SQL queries</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills -->
+  <section id="skills" class="section glass-section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span>Java</span>
+        <span>Python</span>
+        <span>LLM</span>
+        <span>SQL</span>
+        <span>Data Visualization</span>
+        <span>Web Development</span>
+        <span>Canva</span>
+        <span>Teamwork</span>
+        <span>Leadership</span>
+        <span>Communication</span>
+      </div>
+    </div>
+  </section>
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <img src="img/Portfolio-1.jpg" alt="Student Performance Predictor app">
+          <h3>Scientific Research LLM Assistant</h3>
+          <p>AI-powered platform for scientific research collaboration <span class="accent">Python, Streamlit, Ollama</span></p>
+        </div>
+        <div class="project-card">
+          <img src="img/portfolio-2.jpg" alt="This Portfolio Website">
+          <h3>Learnmate-AI</h3>
+          <p>Basic chat bot for students with flash card and quiz creator. <span class="accent">Next.js 14, TypeScript, Tailwind CSS, Ollama</span></p>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+  <!-- LinkedIn Posts -->
+<section id="linkedin" class="section">
+  <div class="container">
+    <h2>Recent LinkedIn Posts</h2>
+    <div class="linkedin-box">
+      <div class="scroll-container">
+        <div class="post-card">
+          <a href="https://www.linkedin.com/posts/rishabha-jr-890aa4290_ai-llm-internship-activity-7381161635073290241-cdIO?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEakAewB-MYaNGsAvaHPAaY0yx1_dFp8xM4" target="_blank">
+            <img src="img/linkedin-post1.jpg" alt="LinkedIn Post 1">
+          </a>
+        </div>
+        <div class="post-card">
+          <a href="https://www.linkedin.com/posts/rishabha-jr-890aa4290_tcsion-certification-learningjourney-activity-7373601652261470209-mP1b?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEakAewB-MYaNGsAvaHPAaY0yx1_dFp8xM4" target="_blank">
+            <img src="img/linkedin-post2.jpg" alt="LinkedIn Post 2">
+          </a>
+        </div>
+        <div class="post-card">
+          <a href="https://www.linkedin.com/posts/rishabha-jr-890aa4290_firststep-milestone-internship-activity-7370060201925939200-bg-E?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEakAewB-MYaNGsAvaHPAaY0yx1_dFp8xM4" target="_blank">
+            <img src="img/linkedin-post3.jpg" alt="LinkedIn Post 3">
+          </a>
+        </div>
+        <div class="post-card">
+          <a href="https://www.linkedin.com/posts/rishabha-jr-890aa4290_promptengineering-ai-machinelearning-activity-7355085884414681089-rG7c?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEakAewB-MYaNGsAvaHPAaY0yx1_dFp8xM4" target="_blank">
+            <img src="img/linkedin-post4.jpg" alt="LinkedIn Post 4">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contact -->
+ <section id="contact" class="section glass-section">
+   <div class="container contact-flex">
+    
+     <div class="contact-form-wrap">
+       <h2>Contact Me</h2>
+      
+       <form id="contactForm" class="contact-form" autocomplete="off" action="https://formspree.io/f/xovyvlwv" method="POST">
+         <input type="text" name="name" placeholder="Your Name" required>
+         <input type="email" name="email" placeholder="Your Email" required>
+         <input type="text" name="subject" placeholder="Subject" required>
+         <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+         <button type="submit" class="btn btn-primary">Send</button>
+       </form>
+
+       <p id="formStatus" style="display:none; color:green; font-weight:600;">
+         Thank you! Your message has been sent 💌
+       </p>
+
+       <script>
+         document.getElementById("contactForm").addEventListener("submit", async function(e) {
+           e.preventDefault();
+           const form = e.target;
+           const data = new FormData(form);
+
+           const response = await fetch("https://formspree.io/f/xovyvlwv", {
+             method: "POST",
+             body: data,
+             headers: { 'Accept': 'application/json' }
+           });
+
+           if (response.ok) {
+             form.reset();
+             document.getElementById("formStatus").style.display = "block";
+           } else {
+             alert("Oops! Something went wrong. Please try again later.");
+           }
+         });
+       </script>
+     </div>
+
+     <div class="contact-details">
+       <h4>Get in Touch</h4>
+       <p><i class="bi bi-geo-alt-fill"></i> Erode, Tamil Nadu, India</p>
+       <p><i class="bi bi-envelope-fill"></i> rishabhajagadesh01@gmail.com</p>
+       <p><i class="bi bi-telephone"></i>+917395819579</p>
+     </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container footer-content">
+      <p>© 2025 Rishabha. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/rishabha-jr-890aa4290/"><i class="bi bi-github"></i></a>
+        <a href="https://github.com/R2101-cmd"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script>
+  // Light/dark theme toggle
+  const toggleBtn = document.getElementById('theme-toggle');
+  const icon = document.getElementById('theme-icon');
+  function setTheme(mode) {
+    if (mode === "dark") {
+      document.body.classList.add('theme-dark');
+      icon.classList.remove("bi-sun"); icon.classList.add("bi-moon");
+      toggleBtn.setAttribute('aria-pressed', 'true');
+    } else {
+      document.body.classList.remove('theme-dark');
+      icon.classList.add("bi-sun"); icon.classList.remove("bi-moon");
+      toggleBtn.setAttribute('aria-pressed', 'false');
+    }
+  }
+  toggleBtn.onclick = () => {
+    const dark = !document.body.classList.contains('theme-dark');
+    setTheme(dark ? "dark" : "light");
+    localStorage.setItem('theme', dark ? "dark" : "light");
+  };
+  // Load theme
+  if(localStorage.getItem('theme')==="dark" || (window.matchMedia('(prefers-color-scheme: dark)').matches && !localStorage.getItem('theme'))) setTheme("dark");
+
+  // Menu link highlight on scroll
+  const navLinks = document.querySelectorAll(".nav-link"), navToggle = document.getElementById("nav-toggle");
+  window.addEventListener("scroll", ()=>{
+    let scrollY = window.scrollY;
+    navLinks.forEach(link=>{
+      let ref = link.getAttribute("href");
+      if(ref.length > 1){
+        let section = document.querySelector(ref);
+        if(section){
+          let offset = section.offsetTop-66;
+          let end = offset+section.offsetHeight;
+          if(scrollY >= offset && scrollY < end){
+            navLinks.forEach(l=>l.classList.remove("active"));
+            link.classList.add("active");
+          }
+        }
+      }
+    });
+  });
+  // Close nav on mobile after click
+  navLinks.forEach(link=>{
+    link.addEventListener('click', ()=>{
+      if(window.innerWidth < 820) navToggle.checked = false;
+    });
+  });
+  // Cursor Follower
+  const cursor = document.querySelector('.cursor-follower');
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = (e.clientX - 14) + 'px';
+    cursor.style.top = (e.clientY - 14) + 'px';
+  });
+  document.addEventListener('mousedown', ()=> cursor.classList.add('active'));
+  document.addEventListener('mouseup', ()=> cursor.classList.remove('active'));
+  // Shrink on nav hover
+  document.querySelectorAll('.btn, .btn-social, input, textarea, .skill-pop, a').forEach(el=>{
+    el.addEventListener('mouseenter',()=>cursor.classList.add('hovered'));
+    el.addEventListener('mouseleave',()=>cursor.classList.remove('hovered'));
+  });
+  </script>
+</body>
+</html>
